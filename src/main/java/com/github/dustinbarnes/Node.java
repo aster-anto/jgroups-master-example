@@ -10,7 +10,6 @@ import org.slf4j.LoggerFactory;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.locks.Lock;
 
-@SuppressWarnings("FieldCanBeLocal")
 public class Node extends ReceiverAdapter
 {
     private static final Logger LOG = LoggerFactory.getLogger(Node.class);
